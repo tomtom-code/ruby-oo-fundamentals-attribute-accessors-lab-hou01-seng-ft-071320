@@ -1,10 +1,14 @@
 ## code your solution here. 
 class Cat
-  attr_accessor :name, :meow
+  attr_accessor :name
   
-  def initialize(name="Maru", meow="meow!")
+  def initialize(name="Maru")
     @name = name
-    @meow = meow
+    
+  end
+  
+  def meow
+    puts "meow!"
   end
   
 end
